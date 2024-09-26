@@ -5,8 +5,8 @@ import CardTitle from "@/components/molecules/cardTitle/index"
 
 const Index = () => {
   return (
-    <div className="">
-      <div className="p-14">
+    <div className="mt-10">
+      <div className="text-center mb-8">
         <CardTitle
           title={"Education"}
           titleSize={"2xl"}
@@ -15,7 +15,7 @@ const Index = () => {
       </div>
       <div className="bg-white p-10 shadow-xl">
         <EducationCard
-          educationCenter={"Universidad de Antioquia"}
+          educationCenter={"University of Antioquia"}
           title={"BE. Systems Engineering"}
           description={"My goal is to learn and apply emerging technologies to create efficient and scalable solutions. With skills in programming and problem-solving, I seek opportunities to put my knowledge into practice, contribute to innovative projects, and continue evolving in the field of engineering."}
           duration={"Nov 2019 - Present"}

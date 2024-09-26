@@ -2,18 +2,26 @@ import React from "react"
 import Education from "@/components/organisms/education/index"
 import Knowledge from "@/components/organisms/knowledge/index"
 import Presentaion from "@/components/molecules/presentation/index"
+import Portfolio from "@/components/organisms/portfolio/index"
+import Sidebar from "@/components/organisms/sidebar/index"
 
 const Index = () => {
   return (
-    <div className="m-3">
+
+    <div className="flex w-full max-w-5xl p-8 flex-col gap-16">
       <div className="m-1">
-        <Presentaion />
-      </div>
-      <div className="m-1">
-        <Knowledge />
-      </div>
-      <div className="m-1">
-        <Education />
+        <div className="">
+          <Presentaion />
+        </div>
+        <div className="m-1">
+          <Knowledge />
+        </div>
+        <div className="m-1">
+          <Education />
+        </div>
+        <div className="m-1">
+          <Portfolio />
+        </div>
       </div>
     </div>
   )
