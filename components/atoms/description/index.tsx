@@ -7,10 +7,11 @@ import { IDescriptionProps } from '@/types/description/IDescriptionProps';
 const Index: React.FC<IDescriptionProps> = ({
   text,       // 'text' prop: the content that will be displayed in the description.
   size = 'base', // 'size' prop: the text size, defaulting to 'base' if not provided.
+  className = '' // 'className' prop: additional classes to be applied to the component.
 }) => {
   return (
     // - 'text-${size}': Dynamically sets the text size based on the 'size' prop.
-    <div className={`text-gray-400 text-${size} mb-10`}>
+    <div className={`text-${size} ${ className }`}> 
       { text }  {/* Renders the text passed as a prop inside the div */}
     </div>
   );

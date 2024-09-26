@@ -9,4 +9,12 @@
 body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.text-color-secondary {
+  color: #767676;
+
 }
