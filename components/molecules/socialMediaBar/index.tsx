@@ -13,7 +13,7 @@ const Index = () => {
       </div>
       <div className="m-2">
         <Icon
-          url={'https:linkedin.com/in/david-torres-gómez-55b599321'}
+          url={'https://linkedin.com/in/david-torres-gómez-55b599321'}
           image={<AiFillLinkedin className="w-7 h-7" />} />
       </div>
     </div>
