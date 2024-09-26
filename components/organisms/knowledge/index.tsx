@@ -13,7 +13,7 @@ const Index = () => {
           description={"A showcase of my expertise in various development fields, including web, backend, and frontend development, utilizing modern tools and technologies."}
           descriptionSize={"base"} />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 flex-col md:flex-row justify-between items-center text-center">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 flex-col md:flex-row justify-between gap-8 items-center text-center">
         <KnowledgeCard
           title={"Web Development"}
           description={"Creating responsive websites."}

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Index = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-5 mb-5">
       <Title text={"Extra Skills"} size={"base"} />
       <div className="mt-5">
         <Description text={"- Bootstrap, Tailwind"} size={"base"} />

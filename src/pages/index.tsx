@@ -1,5 +1,6 @@
 import Section from "@/components/templates/section/index";
 import SideBar from "@/components/organisms/sidebar/index"
+import SocialMediaBar from "@/components/molecules/socialMediaBar";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </div>
       <div className="w-screen bg-gray1 flex flex-col items-center gap-10">
         <Section />
+      </div>
+      <div className="m-1 sticky top-0 h-screen">
+        <SocialMediaBar />
       </div>
     </div>
   );
