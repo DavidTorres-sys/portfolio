@@ -3,7 +3,6 @@ import Education from "@/components/organisms/education/index"
 import Knowledge from "@/components/organisms/knowledge/index"
 import Presentaion from "@/components/molecules/presentation/index"
 import Portfolio from "@/components/organisms/portfolio/index"
-import Sidebar from "@/components/organisms/sidebar/index"
 import Footer from "@/components/molecules/footer"
 
 const Index = () => {
