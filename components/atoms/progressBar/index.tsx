@@ -14,7 +14,7 @@ const Index: React.FC<IProgressBarProps> = ({
       </div>
       <div className="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700">
         <div
-          className="bg-yellow-400 h-1.5 rounded-full"
+          className="bg-secondary h-1.5 rounded-full"
           style={{ width: `${progress}%` }}
         ></div>
       </div>
