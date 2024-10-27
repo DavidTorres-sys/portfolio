@@ -12,7 +12,7 @@ const Index = () => {
           description={"Some projects I've worked on."}
           descriptionSize={"base"} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 flex-col md:flex-row justify-between gap-8 items-center text-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 flex-col md:flex-row justify-between gap-8 items-center text-center">
         <PortfolioCard
           title={"SIGA"}
           description={"Administrative management system for the employees of the Faculty of Exact and Natural Sciences at the University of Antioquia."}

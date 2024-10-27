@@ -10,6 +10,7 @@ const Index = () => {
         <Description text={"- Bootstrap, Tailwind"} size={"base"} />
         <Description text={"- Git"} size={"base"} />
         <Description text={"- Scrum"} size={"base"} />
+        <Description text={"- CI/CD, Unit Test"} size={"base"} />
       </div>
     </div>
   )

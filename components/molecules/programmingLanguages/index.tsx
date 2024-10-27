@@ -17,8 +17,8 @@ const Index = () => {
       <ProgressBar language="Angular" progress={75} />
       <ProgressBar language="PostgresSQL" progress={75} />
       <ProgressBar language="Docker" progress={80} />
-      <ProgressBar language="Java" progress={60} />
-      <ProgressBar language="Spring Boot" progress={50} />
+      <ProgressBar language="Java" progress={75} />
+      <ProgressBar language="Spring Boot" progress={60} />
       <ProgressBar language="NextJS" progress={40} />
     </div>
   </div>

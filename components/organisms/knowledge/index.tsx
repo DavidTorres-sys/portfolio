@@ -1,7 +1,7 @@
 import React from "react";
-import { CodeBracketIcon, ComputerDesktopIcon, ServerIcon } from '@heroicons/react/24/outline';
 import CardTitle from "@/components/molecules/cardTitle/index";
 import KnowledgeCard from "@/components/molecules/knowledgeCard/index";
+import { knowledgeData } from "@/utils/knowledge";
 
 const Index = () => {
   return (
@@ -13,28 +13,17 @@ const Index = () => {
           description={"A showcase of my expertise in various development fields, including web, backend, and frontend development, utilizing modern tools and technologies."}
           descriptionSize={"base"} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 flex-col md:flex-row justify-between gap-8 items-center text-center">
-        <KnowledgeCard
-          title={"Web Development"}
-          description={"Creating responsive websites."}
-          titleSize={"2xl"}
-          descriptionSize={"base"}
-          icon={<ComputerDesktopIcon className="w-16 h-16" />}
-        />
-        <KnowledgeCard
-          title={"Backend Development"}
-          description={"Building server-side applications with Python, Java and databases."}
-          titleSize={"2xl"}
-          descriptionSize={"base"}
-          icon={<ServerIcon className="w-16 h-16" />}
-        />
-        <KnowledgeCard
-          title={"Frontend Development"}
-          description={"Designing user interfaces with Angular, VueJS, NextJS and enhancing user experience."}
-          titleSize={"2xl"}
-          descriptionSize={"base"}
-          icon={<CodeBracketIcon className="w-16 h-16" />}
-        />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 flex-col md:flex-row justify-between gap-8 items-center text-center">
+        {knowledgeData.map((item, index) => (
+          <KnowledgeCard
+            key={index}
+            title={item.title}
+            description={item.description}
+            titleSize={item.titleSize}
+            descriptionSize={item.descriptionSize}
+            icon={item.icon}
+          />
+        ))}
       </div>
     </div>
   );
